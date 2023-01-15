@@ -1,0 +1,9 @@
+version: '3.4'
+services: 
+  api:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    entrypoint: ['node', '/app/dist/main.js']
+    ports:
+      - 8080:3000

@@ -1,0 +1,11 @@
+{
+  "typescript.preferences.importModuleSpecifier": "relative",
+  "editor.formatOnSave": true,
+  "editor.codeActionsOnSave": {
+    "source.organizeImports": true
+  },
+  "testent.general.sourceFolder": "./src",
+  "testent.codeLens.enabled": true,
+  
+  "typescript.tsdk": "node_modules/typescript/lib"
+}
